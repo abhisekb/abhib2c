@@ -13,7 +13,7 @@
                 </div>
             </li>
             <li>
-                @Html.ActionLink("Sign out", "SignOut", "Account")
+                @Html.ActionLink(WebApp_OpenIDConnect_DotNet_B2C.Resources.HomeTexts.Signout, "SignOut", "Account")
             </li>
         </ul>
     </text>
@@ -21,7 +21,7 @@
 else
 {
     <ul class="nav navbar-nav navbar-right">
-        <li>@Html.ActionLink("Sign up", "SignUp", "Account", routeValues: null, htmlAttributes: new { id = "signUpLink" })</li>
-        <li>@Html.ActionLink("Sign in", "SignIn", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        <li>@Html.ActionLink(WebApp_OpenIDConnect_DotNet_B2C.Resources.HomeTexts.Signup, "SignUp", "Account", routeValues: null, htmlAttributes: new { id = "signUpLink" })</li>
+        <li>@Html.ActionLink(WebApp_OpenIDConnect_DotNet_B2C.Resources.HomeTexts.Signin, "SignIn", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
     </ul>
 }

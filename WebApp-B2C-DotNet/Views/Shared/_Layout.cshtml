@@ -20,8 +20,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Claims", "Claims", "Home")</li>
+                    <li>@Html.ActionLink(WebApp_OpenIDConnect_DotNet_B2C.Resources.HomeTexts.Home , "Index", "Home")</li>
+                    <li>@Html.ActionLink(WebApp_OpenIDConnect_DotNet_B2C.Resources.HomeTexts.Claims, "Claims", "Home")</li>
+                    <li>@Html.ActionLink(WebApp_OpenIDConnect_DotNet_B2C.Resources.HomeTexts.Language, "Index", "Language")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
