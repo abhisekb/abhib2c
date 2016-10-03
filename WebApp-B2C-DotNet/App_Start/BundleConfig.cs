@@ -22,6 +22,8 @@ namespace WebApp_OpenIDConnect_DotNet_B2C
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap-cerulean.css",
+                      "~/Content/common.css",
+                      "~/Content/unified.css",
                       "~/Content/site.css"));
         }
     }
